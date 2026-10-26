@@ -4,7 +4,7 @@ import CTA from '../components/blocks/homepage/CTA.astro'
 import Hero from '../components/sections/about-us/Hero.astro'
 import Expertise from '../components/sections/about-us/Expertise.astro'
 import Bess from '../components/sections/about-us/Bess.astro'
-import Regulatory from '../components/sections/about-us/Regulatory.astro'
+import BlogStrip from '../components/blocks/homepage/BlogStrip.astro'
 
 const SEO = {
 	title: 'About Us | Revolt Energy',
@@ -16,12 +16,12 @@ const SEO = {
 <Layout title={SEO.title} description={SEO.description}>
 	<Expertise />
 	<Bess />
-	<Regulatory />
+	<BlogStrip />
 	<CTA
 		title="Understand the grid dynamics shaping your project."
 		text="Discuss your project, pipeline, or grid-access strategy with Revolt."
 		buttonText="BOOK A CALL"
 		buttonLink="https://cal.com/revoltenergy/introcall"
-		classes="!bg-surface-100"
+		classes="!bg-surface-50"
 	/>
 </Layout>
